@@ -1,3 +1,4 @@
+# Web-Crawling
 ## About
 
   - Crawl a given website recursively with given cocurrent requests
@@ -21,10 +22,19 @@ Application will be up and runnig on the port 3001
  - To Initiate the crawling
  ```
  curl -XGET http://localhost:3001/rento/crawl/load/
+ response : {
+    "message": "Crawling process has been initiated"
+}
  ```
  - To See the progress
  ```
  curl -XGET http://localhost:3001/rento/crawl/status/
+ response : {
+    "totalFound": 0,
+    "totalProcessed": 0,
+    "process": "Crawling is not yet initiated",
+    "data": []
+}
  ```
  
  ### Application is dockerized
