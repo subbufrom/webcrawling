@@ -7,7 +7,7 @@ COPY . .
 # RUN mkdir common/logger/log
 RUN npm i
 
-EXPOSE 3000
+EXPOSE 3001
 
 RUN node --version
 CMD ["npm", "start"]
