@@ -1,0 +1,17 @@
+# Logs
+*.log
+.idea/
+npm-debug.log*
+.eslintingnore
+# Dependency directories
+node_modules/
+# dotenv environment variables file
+.env
+# Visual studio code files
+.vscode/
+.vscode/*
+
+# Secrets
+secrets/*
+ecosystem.config.js
+reference/

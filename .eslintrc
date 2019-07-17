@@ -1,0 +1,14 @@
+{
+    "extends": "loopback",
+    "rules": {
+      "max-len": [
+        "error",
+        120,
+        2
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ]
+    }
+  }
